@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #fff;
 }
@@ -5,6 +7,17 @@ body {
 p {
 	font-family:'Conv_gt-walsheim-regular-web',Sans-Serif;
 
+}
+
+h4 {
+	    line-height: 25px;
+    letter-spacing: 0.8px;
+}
+
+h5 {
+	font-size: 24px;
+	line-height: 25px;
+    letter-spacing: 0.8px;
 }
 
 .space{
@@ -28,9 +41,11 @@ p {
 }
 .nav_wkr {
  
-  font-size: 13px;
+  text-transform: uppercase; 
+  font-size: 12px;
+  letter-spacing: 1px;
   font-weight: bold;
-  	font-family:'Conv_gt-walsheim-regular-web',Sans-Serif;
+			font-family:'Conv_GT-Walsheim-Bold',Sans-Serif;
 
 }
 .nav_wkr li{
@@ -78,9 +93,15 @@ ul {
 .hero {
 	width: 100%;
 }
-.hero_text, h3 {
+.hero_text, h1, h2, h3, h4, h5 {
 			font-family:'Conv_GT-Walsheim-Bold',Sans-Serif;
 
+}
+
+.hero_text {
+	position: absolute;
+	top: 150px;
+	left: -100px;
 }
 .hero_title {
 	background-color: #000;
@@ -89,6 +110,7 @@ ul {
 	color: #fff;
 	 display: inline-block;
 	 float: right;
+	 font-size: 32px;
 }
 
 .hero_tag {
@@ -122,8 +144,273 @@ ul {
 	 float: left;
 }
 
-.cube {
+.wkr_title_right {
+	background-color: #000;
+	margin: 2px;
+    padding: 5px 8px;
+	color: #fff;
+	 display: inline-block;
+	 float: right;
+}
 
-background: #333;
-height: 200px;
+.wkr_desc_right {
+	margin-top: 20px;
+	display: inline-block;
+	float: right;
+	text-align: right;
+}
+
+.inwestycje_container{
+
+background: #fcf99c;
+display: table;
+  width: 100%;
+  margin: auto;
+}
+
+.inwestycje_inner{
+	width: 80%;
+	margin: auto;
+}
+.inwestycje {
+
+	background: #fcf99c;
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+
+
+.inwestycje_head {
+  color: #000;
+  text-align: left;
+
+}
+
+
+.inwestycje_desc { 
+ color: #000;
+  text-align: left;
+  padding-bottom: 20px;
+}
+CSS from URL:
+
+ PROCESS CSS
+Code Layout
+Compression (code layout):
+
+Custom template
+
+ Options
+ Preserve CSS
+ Sort Selectors (caution)
+ Sort Properties
+Regroup selectors
+
+Optimise shorthands
+
+ Compress colors
+ Compress font-weight
+ Lowercase selectors
+Case for properties:
+ None
+ Lowercase
+ Uppercase
+ Remove unnecessary backslashes
+ Remove last ;
+ Discard invalid properties
+
+ Add timestamp
+ Output as file
+  Messages
+12
+Optimised number: Changed "0.8px" to ".8px"
+18
+Optimised number: Changed "0.8px" to ".8px"
+38
+Optimised number: Changed "0px" to "0"
+45
+Optimised font-weight: Changed "bold" to "700"
+71
+Optimised number: Changed "0px" to "0"
+177
+Optimised number: Changed "0px" to "0"
+Input: 2.654KB, Output:2.117KB, Compression Ratio: 20.2%(-537 Bytes)
+Select or Copy to Clipboard
+body {
+background-color:#fff;
+}
+
+p {
+font-family:Conv_gt-walsheim-regular-web,Sans-Serif;
+}
+
+h4 {
+line-height:25px;
+letter-spacing:.8px;
+}
+
+h5 {
+font-size:24px;
+line-height:25px;
+letter-spacing:.8px;
+}
+
+.space {
+height:20px;
+margin-top:10px;
+}
+
+.logo {
+margin-top:10px;
+margin-bottom:10px;
+width:250px!important;
+}
+
+.nav_wkr {
+margin-top:10px;
+display:inline-flex;
+text-transform:uppercase;
+font-size:12px;
+letter-spacing:1px;
+font-weight:700;
+font-family:Conv_GT-Walsheim-Bold,Sans-Serif;
+}
+
+.nav_wkr li {
+color:#fff!important;
+background-color:#000;
+text-decoration:none!important;
+margin:2px;
+}
+
+.nav_wkr li a {
+color:#fff!important;
+}
+
+.main_raper {
+display:table;
+width:80%;
+margin:auto;
+}
+
+.main_raper-inner {
+display:table-cell;
+vertical-align:top;
+}
+
+.inner {
+padding:30px;
+}
+
+.hero {
+width:100%;
+}
+
+.hero_text,h1,h2,h3,h4,h5 {
+font-family:Conv_GT-Walsheim-Bold,Sans-Serif;
+}
+
+.hero_text {
+position:absolute;
+top:150px;
+left:-100px;
+}
+
+.hero_title {
+background-color:#000;
+color:#fff;
+display:inline-block;
+float:right;
+font-size:32px;
+margin:2px;
+padding:5px 8px;
+}
+
+.hero_tag {
+background-color:#3b3f96;
+color:#fff;
+display:inline-block;
+float:right;
+margin:2px;
+padding:5px 8px;
+}
+
+.hero_desc {
+margin-top:20px;
+display:inline-block;
+float:right;
+}
+
+.wkr_title_left {
+background-color:#000;
+color:#fff;
+display:inline-block;
+float:left;
+margin:2px 50px 2px 2px;
+padding:5px 8px;
+}
+
+.wkr_desc_left {
+margin-top:20px;
+display:inline-block;
+float:left;
+}
+
+.wkr_title_right {
+background-color:#000;
+color:#fff;
+display:inline-block;
+float:right;
+margin:2px;
+padding:5px 8px;
+}
+
+.wkr_desc_right {
+margin-top:20px;
+display:inline-block;
+float:right;
+text-align:right;
+}
+
+.inwestycje_container {
+background:#fcf99c;
+display:table;
+width:100%;
+margin:auto;
+}
+
+.inwestycje_inner {
+width:80%;
+margin:auto;
+}
+
+.inwestycje {
+background:#fcf99c;
+padding-top:40px;
+padding-bottom:0;
+}
+
+.inwestycje_head {
+color:#000;
+text-align:left;
+}
+
+.inwestycje_desc {
+color:#000;
+text-align:left;
+padding-bottom:20px;
+}
+
+.nav_wkr.small,ul {
+margin-top:0;
+}
+
+@media min-width 768px{
+.logo {
+float:left;
+}
+
+.nav_wkr {
+float:right;
+}
 }
