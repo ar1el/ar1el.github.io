@@ -1,241 +1,4 @@
 
-
-body {
-  background-color: #fff;
-}
-
-p {
-	font-family:'Conv_gt-walsheim-regular-web',Sans-Serif;
-
-}
-
-h4 {
-	    line-height: 25px;
-    letter-spacing: 0.8px;
-}
-
-h5 {
-	font-size: 24px;
-	line-height: 25px;
-    letter-spacing: 0.8px;
-}
-
-.space{
-	height: 20px;
-	margin-top: 10px;
-}
-
-
-.logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 250px!important;
-}
-
-.nav_wkr  {
-	margin-top: 10px;
-  display: inline-flex;
-}
-.nav_wkr.small {
-	margin-top: 0px;
-}
-.nav_wkr {
- 
-  text-transform: uppercase; 
-  font-size: 12px;
-  letter-spacing: 1px;
-  font-weight: bold;
-			font-family:'Conv_GT-Walsheim-Bold',Sans-Serif;
-
-}
-.nav_wkr li{
-  color: #fff!important;
-  margin:2px;
-  background-color: #000;
-  text-decoration: none!important;
-
-}
-.nav_wkr li a{
-  color: #fff!important;
-
-}
-
-@media (min-width: 768px) {
-  .logo {
-    float: left;
-  }
-  .nav_wkr {
-    float: right;
-  }
-}
-
-ul {
-	margin-top: 0px;
-}
-
-  .main_raper {
-  display: table;
-  width: 80%;
-  margin: auto;
-}
-.main_raper-inner {
-  display: table-cell;
-  vertical-align: top;
-}
-
-
-/* Padding for spacing */
-.inner {
-  padding: 30px;
-}
-
-
-.hero {
-	width: 100%;
-}
-.hero_text, h1, h2, h3, h4, h5 {
-			font-family:'Conv_GT-Walsheim-Bold',Sans-Serif;
-
-}
-
-.hero_text {
-	position: absolute;
-	top: 150px;
-	left: -100px;
-}
-.hero_title {
-	background-color: #000;
-	margin: 2px;
-    padding: 5px 8px;
-	color: #fff;
-	 display: inline-block;
-	 float: right;
-	 font-size: 32px;
-}
-
-.hero_tag {
-	background-color: #3b3f96;
-	margin: 2px;
-    padding: 5px 8px;
-	color: #fff;
-	 display: inline-block;
-	 float: right;
-}
-.hero_desc{
-	margin-top: 20px;
-		 display: inline-block;
-	 float: right;
-
-}
-
-.wkr_title_left {
-	background-color: #000;
-	margin: 2px;
-    padding: 5px 8px;
-	color: #fff;
-	 display: inline-block;
-	 float: left;
-	margin-right: 50px;
-}
-
-.wkr_desc_left{
-	margin-top: 20px;
-		 display: inline-block;
-	 float: left;
-}
-
-.wkr_title_right {
-	background-color: #000;
-	margin: 2px;
-    padding: 5px 8px;
-	color: #fff;
-	 display: inline-block;
-	 float: right;
-}
-
-.wkr_desc_right {
-	margin-top: 20px;
-	display: inline-block;
-	float: right;
-	text-align: right;
-}
-
-.inwestycje_container{
-
-background: #fcf99c;
-display: table;
-  width: 100%;
-  margin: auto;
-}
-
-.inwestycje_inner{
-	width: 80%;
-	margin: auto;
-}
-.inwestycje {
-
-	background: #fcf99c;
-	padding-top: 40px;
-	padding-bottom: 0px;
-}
-
-
-.inwestycje_head {
-  color: #000;
-  text-align: left;
-
-}
-
-
-.inwestycje_desc { 
- color: #000;
-  text-align: left;
-  padding-bottom: 20px;
-}
-CSS from URL:
-
- PROCESS CSS
-Code Layout
-Compression (code layout):
-
-Custom template
-
- Options
- Preserve CSS
- Sort Selectors (caution)
- Sort Properties
-Regroup selectors
-
-Optimise shorthands
-
- Compress colors
- Compress font-weight
- Lowercase selectors
-Case for properties:
- None
- Lowercase
- Uppercase
- Remove unnecessary backslashes
- Remove last ;
- Discard invalid properties
-
- Add timestamp
- Output as file
-  Messages
-12
-Optimised number: Changed "0.8px" to ".8px"
-18
-Optimised number: Changed "0.8px" to ".8px"
-38
-Optimised number: Changed "0px" to "0"
-45
-Optimised font-weight: Changed "bold" to "700"
-71
-Optimised number: Changed "0px" to "0"
-177
-Optimised number: Changed "0px" to "0"
-Input: 2.654KB, Output:2.117KB, Compression Ratio: 20.2%(-537 Bytes)
-Select or Copy to Clipboard
 body {
 background-color:#fff;
 }
@@ -255,6 +18,12 @@ line-height:25px;
 letter-spacing:.8px;
 }
 
+h6 {
+font-size:14px;
+line-height:25px;
+letter-spacing:.8px;
+}
+
 .space {
 height:20px;
 margin-top:10px;
@@ -267,6 +36,7 @@ width:250px!important;
 }
 
 .nav_wkr {
+	float: right;
 margin-top:10px;
 display:inline-flex;
 text-transform:uppercase;
@@ -306,7 +76,19 @@ padding:30px;
 width:100%;
 }
 
-.hero_text,h1,h2,h3,h4,h5 {
+.hero_video {
+  position: relative;
+}
+
+.hero_video_icon {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  width: 10%;
+}
+
+.hero_text,h1,h2,h3,h4,h5,h6 {
+  color: #000;
 font-family:Conv_GT-Walsheim-Bold,Sans-Serif;
 }
 
@@ -413,4 +195,105 @@ float:left;
 .nav_wkr {
 float:right;
 }
+}
+
+.kontakt_head {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.kontakt_container {
+background-image: url("../img/mapa.jpg");
+background-repeat: no-repeat;
+background-position: left top;
+display:table;
+width:100%;
+margin:auto;
+}
+
+.kontakt_inner {
+width:80%;
+margin:auto;
+margin-top: 20px;
+}
+
+.kontakt {
+padding-top:40px;
+padding-bottom:0;
+}
+
+.dane {
+margin-left: 20px;
+   background: #fcf99c;
+   width: 47.5%;
+   	padding: 20px;
+
+}
+
+.formul {
+	padding: 20px;
+	   background: #fcf99c;
+width: 47.5%;
+float: right;
+margin-right: 20px;
+margin-bottom: 40px;
+}
+
+
+
+.button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background: #2e3192;
+    border: solid 0;
+    color: #fff;
+    font-family:Conv_GT-Walsheim-Bold,Sans-Serif;
+    letter-spacing: 2px;
+}
+
+.foot {
+	margin-bottom: 80px;
+}
+
+.footr {
+
+	font-family:Conv_gt-walsheim-regular-web,Sans-Serif;
+
+}
+
+.hasztag {
+	background: #000;
+	color: #fcf99c;
+	position: absolute;
+  z-index: 10;
+  padding-left: 8%;
+  padding-top: 1px!important;
+  padding-bottom: 1px;
+  padding-right: 4px;
+  color: #000;
+  text-align: left;
+	top: 8%;
+    left: 0%;
+}
+
+.tag {
+	color:#fcf99c;
+	margin-bottom: 0;
+	    font-family:Conv_GT-Walsheim-Bold,Sans-Serif;
+	letter-spacing: 2px;
+
 }
