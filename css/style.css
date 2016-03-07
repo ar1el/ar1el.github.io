@@ -1,5 +1,9 @@
 body {
   background-color: #fff;
+}
+
+p {
+	font-family:'Conv_gt-walsheim-regular-web',Sans-Serif;
 
 }
 
@@ -26,6 +30,8 @@ body {
  
   font-size: 13px;
   font-weight: bold;
+  	font-family:'Conv_gt-walsheim-regular-web',Sans-Serif;
+
 }
 .nav_wkr li{
   color: #fff!important;
@@ -72,7 +78,9 @@ ul {
 .hero {
 	width: 100%;
 }
-.hero_text {
+.hero_text, h3 {
+			font-family:'Conv_GT-Walsheim-Bold',Sans-Serif;
+
 }
 .hero_title {
 	background-color: #000;
