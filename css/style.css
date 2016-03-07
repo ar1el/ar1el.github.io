@@ -1,6 +1,46 @@
 
+.parallax {
+      perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.fala {
+    width: 100px;
+    top: 1600px;
+    left: -1200px;
+    position: absolute;
+    z-index: 2;
+      transform: translateZ(-4px) scale(2.0);
+
+}
+
+
+.fala2 {
+    width: 70px;
+    top: 540px;
+    right: -900px;
+    position: absolute;
+    z-index: 2;
+    margin-right: 0px;
+      transform: translateZ(-2px) scale(1.2);
+
+}
+.fala3 {
+    width: 100px;
+    top: -200px;
+    left: -1000px;
+    position: absolute;
+    z-index: 2;
+      transform: translateZ(-2px) scale(0.8);
+
+}
+
+
+}
 body {
-background-color:#fff;
+
+background:#f8f8f8;
 }
 
 p {
@@ -266,7 +306,7 @@ margin-bottom: 40px;
 }
 
 .foot {
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 }
 
 .footr {
